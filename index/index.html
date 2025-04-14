@@ -13,22 +13,21 @@
     </style>
 </head>
 <body>
-    <p id="message">🔮 너의 거인화  🔮</p>
+    <p id="message">🔮 마법의 NFC가 말하길... 🔮</p>
     <button onclick="showRandomMessage()">눌러서 확인하기</button>
 
     <script>
         function showRandomMessage() {
             const messages = [
-                "진격의 거인",
-                "시조의 거인",
+                "진격의거인",
+                "시조의거인",
                 "여성형 거인",
-                "초대형 거인",
                 "갑옷 거인",
                 "짐승 거인",
-               "전퇴의 거인",
-                "차력 거인",
+                "초대형 거인",
                 "턱 거인",
-             
+                "차력 거인",
+                "전퇴의 거인"
             ];
             document.getElementById("message").innerText = messages[Math.floor(Math.random() * messages.length)];
         }
